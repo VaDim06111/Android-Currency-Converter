@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xf:BottomBarPage xmlns:xf1="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Конвертер"
+             x:Class="Конвертер.MainPage"                
+               xmlns:xf="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms" >
+
+    <ContentPage Title="Конвертер" 
+                 Icon="konverter.png"
+                 BackgroundColor="#00BFFF">
+
+        <Grid RowSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Конвертер" BackgroundColor="DodgerBlue" TextColor="Black" FontSize="40" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
+
+            <Label Text="USD" TextColor="Black" FontAttributes="Bold" FontSize="35" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+            <Editor x:Name="Editor_USD" Grid.Row="1" Grid.Column="1" FontSize="35" Grid.ColumnSpan="2" Text="0" TextChanged="Editor_USD_TextChanged" Focused="Editor_USD_Focused" />
+
+            <Label Text="EUR" TextColor="Black" FontAttributes="Bold" FontSize="35" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+            <Editor x:Name="Editor_EUR" Grid.Row="2" Grid.Column="1" FontSize="35" Grid.ColumnSpan="2" Text="0" TextChanged="Editor_EUR_TextChanged" Focused="Editor_EUR_Focused"/>
+
+            <Label Text="RUB" TextColor="Black" FontAttributes="Bold" FontSize="35" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+            <Editor x:Name="Editor_RUB" Grid.Row="3" Grid.Column="1" FontSize="35" Grid.ColumnSpan="2" Text="0" TextChanged="Editor_RUB_TextChanged" Focused="Editor_RUB_Focused"/>
+
+            <Label Text="BYN" TextColor="Black" FontAttributes="Bold" FontSize="35" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+            <Editor x:Name="Editor_BYN" Grid.Row="4" Grid.Column="1" FontSize="35" Grid.ColumnSpan="2" Text="0" TextChanged="Editor_BYN_TextChanged" Focused="Editor_BYN_Focused"/>
+
+            <Label Text="UAH" TextColor="Black" FontAttributes="Bold" FontSize="35" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+            <Editor x:Name="Editor_UAH" Grid.Row="5" Grid.Column="1" FontSize="35" Grid.ColumnSpan="2" Text="0" TextChanged="Editor_UAH_TextChanged" Focused="Editor_UAH_Focused"/>
+
+            <Label Text="ZL" TextColor="Black" FontAttributes="Bold" FontSize="35" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+            <Editor x:Name="Editor_ZL" Grid.Row="6" Grid.Column="1" FontSize="35" Grid.ColumnSpan="2" Text="0" TextChanged="Editor_ZL_TextChanged" Focused="Editor_ZL_Focused"/>
+        </Grid>
+
+    </ContentPage>
+
+    <ContentPage Title="Курс валют"
+                 x:Name="Kurs_valut"
+                 Icon="kurs.png"
+                 xf:BottomBarPageExtensions.TabColor="#32CD32" 
+                 BackgroundColor="#7CFC00"
+                 Appearing="Kurs_valut_Appearing">
+
+        <Grid RowSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+
+            <Label Text="Курс валют" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.ColumnSpan="3"  BackgroundColor="#32CD32"/>
+
+            <Label Text="Покупка" TextColor="DimGray" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
+            <Label Text="Продажа" TextColor="DimGray" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="2"/>
+
+            <Label Text="Доллар США, $" TextColor="Black" FontAttributes="Bold" Grid.Column="0" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+            <Editor Grid.Row="2" Grid.Column="1" FontSize="35" InputTransparent="True" x:Name="Edit_USD_buy"/>
+            <Editor Grid.Row="2" Grid.Column="2" FontSize="35" InputTransparent="True" x:Name="Edit_USD_send"/>
+
+            <Label Text="Евро, €" TextColor="Black" FontAttributes="Bold" Grid.Column="0" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Editor Grid.Row="3" Grid.Column="1" FontSize="35" InputTransparent="True" x:Name="Edit_EUR_buy"/>
+            <Editor Grid.Row="3" Grid.Column="2" FontSize="35" InputTransparent="True" x:Name="Edit_EUR_send"/>
+
+            <Label Text="100 Российских рублей, ₽" TextColor="Black" FontAttributes="Bold" Grid.Column="0" Grid.Row="4" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Editor Grid.Row="4" Grid.Column="1" FontSize="35" InputTransparent="True" x:Name="Edit_RUS_buy"/>
+            <Editor Grid.Row="4" Grid.Column="2" FontSize="35" InputTransparent="True" x:Name="Edit_RUS_send"/>
+
+            <Label Text="10 Злотых, zł" TextColor="Black" FontAttributes="Bold" Grid.Column="0" Grid.Row="5" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Editor Grid.Row="5" Grid.Column="1" FontSize="35" InputTransparent="True" x:Name="Edit_ZL_buy"/>
+            <Editor Grid.Row="5" Grid.Column="2" FontSize="35" InputTransparent="True" x:Name="Edit_ZL_send"/>
+
+            <Label Text="100 Гривен, ₴" TextColor="Black" FontAttributes="Bold" Grid.Column="0" Grid.Row="6" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Editor Grid.Row="6" Grid.Column="1" FontSize="35" InputTransparent="True" x:Name="Edit_GR_buy"/>
+            <Editor Grid.Row="6" Grid.Column="2" FontSize="35" InputTransparent="True" x:Name="Edit_GR_send" />
+            <ImageButton x:Name="ImageButton_update" Source="update1.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="#32CD32" Clicked="Button_Clicked" Pressed="ImageButton_update_Pressed" ></ImageButton>
+
+        </Grid>
+    </ContentPage>
+
+    <ContentPage Title="Заметки" 
+                 Icon="zametka.png"
+                 BackgroundColor="#7B68EE"
+                 xf:BottomBarPageExtensions.TabColor="#7B1FA2">
+        <ContentPage.BindingContext>
+            <local:MainViewModel/>
+        </ContentPage.BindingContext>
+
+        <ListView ItemsSource="{Binding mZametki}" HasUnevenRows="True" Margin="5,80,5,5" ItemTapped="ListView_ItemTapped" SeparatorVisibility="Default" SeparatorColor="Black" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Title}" FontSize="30" TextColor="Black"/>
+                            <Label Text="{Binding Description}" FontSize="20" TextColor="Black"/>
+                            <StackLayout x:Name="ButtonsStackLayout" IsVisible="{Binding IsVisible}" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <Button Text="Просмотр" BackgroundColor="DarkGreen" TextColor="White" WidthRequest="115"  FontSize="16" />
+                                <Button Text="Изменить" BackgroundColor="DodgerBlue" TextColor="White" WidthRequest="110"  FontSize="16" />
+                                <Button Text="Удалить" BackgroundColor="DarkRed" TextColor="White" WidthRequest="100"  FontSize="16" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </ContentPage>
+
+    <ContentPage Title="Таймер" 
+                 Icon="timer1.png"
+                 BackgroundColor="#DC143C"
+                 xf:BottomBarPageExtensions.TabColor="#FF5252">
+        <Label Text="Таймер" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+    </ContentPage>
+
+    <ContentPage Title="Контакты" 
+                 Icon="contact.png"
+                 BackgroundColor="#FFA500"
+                 xf:BottomBarPageExtensions.TabColor="#FF9800">
+        <Label Text="Контакты" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" x:Name="Label1"/>
+    </ContentPage>
+
+
+</xf:BottomBarPage>

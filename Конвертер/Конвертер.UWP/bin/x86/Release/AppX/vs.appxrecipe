@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VADIM</Machine>
+    <WindowsUser>Lenovo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=53df3226-0bde-40ea-8f77-b2a3f43da58c</PackageIdentityPublisher>
+    <IntermediateOutputPath>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5ACF0D8C63920C188B70512D0F50A57E9353993AB728AC4BB601CAB4DFE74DCF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f267e075-aaba-416e-a192-95756684f011_1.0.0.0_x86__4hs5j56ydjrzj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f267e075-aaba-416e-a192-95756684f011_4hs5j56ydjrzj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f267e075-aaba-416e-a192-95756684f011</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=53df3226-0bde-40ea-8f77-b2a3f43da58c</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-29T07:32:14.174</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-07T15:07:16.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2018-05-16T14:28:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\contact.png">
+      <PackagePath>contact.png</PackagePath>
+      <Modified>2018-12-08T15:48:51.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\konverter.png">
+      <PackagePath>konverter.png</PackagePath>
+      <Modified>2018-12-08T15:48:58.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\kurs.png">
+      <PackagePath>kurs.png</PackagePath>
+      <Modified>2018-12-08T15:49:07.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\notebook.png">
+      <PackagePath>notebook.png</PackagePath>
+      <Modified>2018-12-08T15:49:14.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-04-29T07:30:51.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\timer.png">
+      <PackagePath>timer.png</PackagePath>
+      <Modified>2018-12-08T15:49:20.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\_________.UWP.dll">
+      <PackagePath>_________.UWP.dll</PackagePath>
+      <Modified>2019-04-29T07:32:12.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\_________.UWP.pdb">
+      <PackagePath>_________.UWP.pdb</PackagePath>
+      <Modified>2019-04-29T07:32:14.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Release\ilc\Конвертер.UWP.exe">
+      <PackagePath>Конвертер.UWP.exe</PackagePath>
+      <Modified>2019-04-29T07:32:14.142</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

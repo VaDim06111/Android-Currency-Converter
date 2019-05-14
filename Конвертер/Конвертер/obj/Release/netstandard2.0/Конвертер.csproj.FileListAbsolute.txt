@@ -1,0 +1,12 @@
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\bin\Release\netstandard2.0\Конвертер.deps.json
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\bin\Release\netstandard2.0\Конвертер.dll
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\bin\Release\netstandard2.0\Конвертер.pdb
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\Конвертер.csprojAssemblyReference.cache
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\App.xaml.g.cs
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\Конвертер.csproj.CoreCompileInputs.cache
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\Конвертер.AssemblyInfoInputs.cache
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\Конвертер.AssemblyInfo.cs
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\XamlC.stamp
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\Конвертер.dll
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Release\netstandard2.0\Конвертер.pdb
