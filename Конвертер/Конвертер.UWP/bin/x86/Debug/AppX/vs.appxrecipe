@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=53df3226-0bde-40ea-8f77-b2a3f43da58c</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>BBACDD59F7AA41777F58C90AC8AF14D8EFB72923938088E279E0928AA17CBB14</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f267e075-aaba-416e-a192-95756684f011_1.0.0.0_x86__4hs5j56ydjrzj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f267e075-aaba-416e-a192-95756684f011_4hs5j56ydjrzj!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-13T12:27:27.856</Modified>
+      <Modified>2019-05-14T13:12:51.231</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\Конвертер.UWP.exe">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\bin\x86\Debug\Конвертер.UWP.exe">
       <PackagePath>entrypoint\Конвертер.UWP.exe</PackagePath>
-      <Modified>2019-05-13T12:27:26.774</Modified>
+      <Modified>2019-05-14T13:12:47.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\htmlagilitypack\1.8.14\lib\uap10.0\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
@@ -738,184 +738,184 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-11-13T17:15:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\bin\Debug\netstandard2.0\Конвертер.dll">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер\bin\Debug\netstandard2.0\Конвертер.dll">
       <PackagePath>Конвертер.dll</PackagePath>
-      <Modified>2019-05-13T12:27:20.069</Modified>
+      <Modified>2019-05-14T13:12:28.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-22T22:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.374</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.563</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.661</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.752</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.757</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-07T15:07:16.849</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\contact.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\contact.png">
       <PackagePath>contact.png</PackagePath>
       <Modified>2018-12-08T15:48:51.010</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\konverter.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\konverter.png">
       <PackagePath>konverter.png</PackagePath>
       <Modified>2018-12-08T15:48:58.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\kurs.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\kurs.png">
       <PackagePath>kurs.png</PackagePath>
       <Modified>2018-12-08T15:49:07.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\notebook.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\notebook.png">
       <PackagePath>notebook.png</PackagePath>
       <Modified>2018-12-08T15:49:14.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\timer.png">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\timer.png">
       <PackagePath>timer.png</PackagePath>
       <Modified>2018-12-08T15:49:20.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-12-07T15:07:16.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\Конвертер.UWP.xr.xml">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\bin\x86\Debug\Конвертер.UWP.xr.xml">
       <PackagePath>Конвертер.UWP.xr.xml</PackagePath>
       <Modified>2018-12-07T15:39:58.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-05-13T12:27:26.569</Modified>
+      <Modified>2019-05-14T13:12:47.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-05-13T12:27:26.570</Modified>
+      <Modified>2019-05-14T13:12:47.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -925,13 +925,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-11-13T17:15:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-05-12T16:22:38.500</Modified>
+      <Modified>2019-05-14T13:12:50.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\Core\Конвертер.UWP.exe">
+    <AppxPackagedFile Include="E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\bin\x86\Debug\Core\Конвертер.UWP.exe">
       <PackagePath>Конвертер.UWP.exe</PackagePath>
-      <Modified>2019-05-13T12:27:27.846</Modified>
+      <Modified>2019-05-14T13:12:51.217</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
