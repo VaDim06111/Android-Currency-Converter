@@ -113,7 +113,7 @@
             <local:MainViewModel/>
         </ContentPage.BindingContext>
 
-        <ListView ItemsSource="{Binding mZametki}" HasUnevenRows="True" Margin="5,80,5,5" ItemTapped="ListView_ItemTapped" SeparatorVisibility="Default" SeparatorColor="Black" >
+        <ListView x:Name="ListViewZametki" ItemsSource="{Binding mZametki}" HasUnevenRows="True" Margin="5,80,5,5" ItemTapped="ListView_ItemTapped" SeparatorVisibility="Default" SeparatorColor="Black" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -121,9 +121,9 @@
                             <Label Text="{Binding Title}" FontSize="30" TextColor="Black"/>
                             <Label Text="{Binding Description}" FontSize="20" TextColor="Black"/>
                             <StackLayout x:Name="ButtonsStackLayout" IsVisible="{Binding IsVisible}" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                                <Button Text="Просмотр" BackgroundColor="DarkGreen" TextColor="White" WidthRequest="115"  FontSize="16" />
-                                <Button Text="Изменить" BackgroundColor="DodgerBlue" TextColor="White" WidthRequest="110"  FontSize="16" />
-                                <Button Text="Удалить" BackgroundColor="DarkRed" TextColor="White" WidthRequest="100"  FontSize="16" />
+                                <Button Text="Просмотр" x:Name="Button_List_Prosmotr" BackgroundColor="DarkGreen" TextColor="White" WidthRequest="115"  FontSize="16" />
+                                <Button Text="Изменить" x:Name="Button_List_Change" BackgroundColor="DodgerBlue" TextColor="White" WidthRequest="110"  FontSize="16" />
+                                <Button Text="Удалить" x:Name="Button_List_Delete" BackgroundColor="DarkRed" TextColor="White" WidthRequest="100"  FontSize="16" Clicked="Button_List_Delete_Clicked" />
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>

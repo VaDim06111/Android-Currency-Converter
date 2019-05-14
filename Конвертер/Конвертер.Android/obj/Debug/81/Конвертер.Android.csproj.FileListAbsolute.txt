@@ -118,7 +118,5 @@ E:\Проекты Visual Studio\Конвертер\Конвертер\Конве
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\android\assets\Конвертер.Android.pdb
-E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\bin\Debug\netstandard2.0\Конвертер.dll
-E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\bin\Debug\Конвертер.dll.mdb
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\linksrc\Конвертер.dll.mdb

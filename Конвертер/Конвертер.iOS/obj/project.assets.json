@@ -1424,11 +1424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер.iOS\\Конвертер.iOS.csproj",
+      "projectUniqueName": "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер.iOS\\Конвертер.iOS.csproj",
       "projectName": "Конвертер.iOS",
-      "projectPath": "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер.iOS\\Конвертер.iOS.csproj",
+      "projectPath": "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер.iOS\\Конвертер.iOS.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер.iOS\\obj\\",
+      "outputPath": "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1445,8 +1445,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер\\Конвертер.csproj": {
-              "projectPath": "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер\\Конвертер.csproj"
+            "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер\\Конвертер.csproj": {
+              "projectPath": "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер\\Конвертер.csproj"
             }
           }
         }

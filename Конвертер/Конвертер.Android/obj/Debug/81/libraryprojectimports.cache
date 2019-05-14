@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\11\jl\arch-core-common.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\12\jl\arch-lifecycle-common.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\13\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\14\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\15\jl\support-annotations.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\16\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\17\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\18\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\19\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\20\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\21\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\22\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\23\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\24\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\25\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\26\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\27\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\28\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\29\jl\bin\classes.jar</Jar>
-    <Jar>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\3\jl\formsviewgroup.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\11\jl\arch-core-common.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\12\jl\arch-lifecycle-common.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\13\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\14\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\15\jl\support-annotations.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\16\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\17\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\18\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\19\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\20\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\21\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\22\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\23\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\24\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\25\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\26\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\27\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\28\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\29\jl\bin\classes.jar</Jar>
+    <Jar>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\3\jl\formsviewgroup.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\0\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\2\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\7\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\16\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\19\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\21\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\22\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\23\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\24\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\25\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\26\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\28\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\0\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\2\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\7\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\16\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\19\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\21\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\22\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\23\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\24\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\25\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\26\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\28\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\81\lp\0\jl\assets</ResolvedAssetDirectory>
@@ -44,17 +44,17 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\0.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\2.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\7.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\16.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\19.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\21.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\22.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\23.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\24.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\25.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\26.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.Android\obj\Debug\81\lp\28.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\0.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\2.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\7.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\16.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\19.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\21.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\22.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\23.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\24.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\25.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\26.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.Android\obj\Debug\81\lp\28.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

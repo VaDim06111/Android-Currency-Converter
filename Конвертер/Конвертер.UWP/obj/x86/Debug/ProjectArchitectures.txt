@@ -1,1 +1,1 @@
-E:\Проекты Visual Studio\Clone repositories\Android Currency Converter\Конвертер\Конвертер.UWP\Конвертер.UWP.csproj;x86
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\Конвертер.UWP.csproj;x86

@@ -20,7 +20,9 @@ namespace Конвертер
 {
     public partial class MainPage : BottomBarPage
     {
-        string[] hm = new string[105];      
+        string[] hm = new string[105];
+        Zametki zametki;
+        MainViewModel vm;
         public MainPage()
         {
             
@@ -364,13 +366,12 @@ namespace Конвертер
         }
 
         public void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            //bindingcontext = null
+        {           
             try
             {
-                var zametki = e.Item as Zametki;
+                zametki = e.Item as Zametki;
                 ListView st = ((ListView)sender);
-                var vm = st.BindingContext as MainViewModel;               
+                vm = st.BindingContext as MainViewModel;               
                 vm.HideOrShowProduct(zametki);
             }
             catch (Exception ex)
@@ -378,6 +379,20 @@ namespace Конвертер
                 DisplayAlert("Ошибка", ex.Message, "OK");
             }
 
+        }
+
+        private void Button_List_Delete_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                vm.DeleteZametka();
+                ListViewZametki.ItemsSource = null;
+                ListViewZametki.ItemsSource = vm.mZametki;
+            }
+             catch(Exception ex)
+            {
+                DisplayAlert("Ошибка", ex.Message, "OK");
+            }
         }
     }
 }

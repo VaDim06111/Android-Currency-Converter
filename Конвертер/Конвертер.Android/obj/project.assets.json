@@ -1308,11 +1308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер.Android\\Конвертер.Android.csproj",
+      "projectUniqueName": "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер.Android\\Конвертер.Android.csproj",
       "projectName": "Конвертер.Android",
-      "projectPath": "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер.Android\\Конвертер.Android.csproj",
+      "projectPath": "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер.Android\\Конвертер.Android.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер.Android\\obj\\",
+      "outputPath": "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1329,8 +1329,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер\\Конвертер.csproj": {
-              "projectPath": "E:\\Проекты Visual Studio\\Clone repositories\\Android Currency Converter\\Конвертер\\Конвертер\\Конвертер.csproj"
+            "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер\\Конвертер.csproj": {
+              "projectPath": "E:\\Проекты Visual Studio\\Конвертер\\Конвертер\\Конвертер\\Конвертер.csproj"
             }
           }
         }
