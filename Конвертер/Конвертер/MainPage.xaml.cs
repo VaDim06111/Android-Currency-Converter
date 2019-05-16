@@ -15,6 +15,7 @@ using Plugin.Connectivity.Abstractions;
 using System.Diagnostics;
 using System.Xml.Linq;
 using PCLStorage;
+using Rg.Plugins.Popup.Services;
 
 namespace Конвертер
 {
@@ -23,10 +24,11 @@ namespace Конвертер
         string[] hm = new string[105];
         Zametki zametki;
         MainViewModel vm;
+        int count = 1;
         public MainPage()
         {
-            
-            InitializeComponent();          
+
+            InitializeComponent();
 
             if (CheckConnection())
             {
@@ -66,7 +68,7 @@ namespace Конвертер
                 hm[18] = hm[18].Remove(hm[18].Length - 1, 1).Replace(".", ",");
                 hm[66] = hm[66].Remove(hm[66].Length - 1, 1).Replace(".", ",");
                 hm[67] = hm[67].Remove(hm[67].Length - 1, 1).Replace(".", ",");
-                Create_file();               
+                Create_file();
             }
             else
                 ReadFileKurs();
@@ -258,11 +260,11 @@ namespace Конвертер
                 {
                     try
                     {
-                        Editor_BYN.Text = Math.Round(double.Parse(Editor_UAH.Text.Replace(" ", "")) / 100  * Convert.ToDouble(hm[67]), 3).ToString();
+                        Editor_BYN.Text = Math.Round(double.Parse(Editor_UAH.Text.Replace(" ", "")) / 100 * Convert.ToDouble(hm[67]), 3).ToString();
                         Editor_USD.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) / Convert.ToDouble(hm[30]), 3).ToString();
                         Editor_EUR.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) / Convert.ToDouble(hm[42]), 3).ToString();
                         Editor_RUB.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) * 100 / Convert.ToDouble(hm[55]), 3).ToString();
-                        Editor_ZL.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) * 10 / Convert.ToDouble(hm[18]), 3).ToString();                       
+                        Editor_ZL.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) * 10 / Convert.ToDouble(hm[18]), 3).ToString();
                     }
                     catch (Exception)
                     {
@@ -282,7 +284,7 @@ namespace Конвертер
                         Editor_BYN.Text = Math.Round(double.Parse(Editor_ZL.Text.Replace(" ", "")) / 10 * Convert.ToDouble(hm[18]), 3).ToString();
                         Editor_USD.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) / Convert.ToDouble(hm[30]), 3).ToString();
                         Editor_EUR.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) / Convert.ToDouble(hm[42]), 3).ToString();
-                        Editor_RUB.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) * 100 / Convert.ToDouble(hm[55]), 3).ToString();                        
+                        Editor_RUB.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) * 100 / Convert.ToDouble(hm[55]), 3).ToString();
                         Editor_UAH.Text = Math.Round(double.Parse(Editor_BYN.Text.Replace(" ", "")) * 100 / Convert.ToDouble(hm[67]), 3).ToString();
                     }
                     catch (Exception)
@@ -332,7 +334,7 @@ namespace Конвертер
         //54 55 100₽
         // 17 18 10zl
         // 66 67 100grivna
-        
+
         public async Task Create_file()
         {
             //C:\Users\Lenovo\AppData\Local\Packages\f267e075-aaba-416e-a192-95756684f011_4hs5j56ydjrzj\LocalState\Kurs
@@ -340,8 +342,8 @@ namespace Конвертер
             IFileSystem fileSystem = FileSystem.Current;
             IFolder rootFolder = fileSystem.LocalStorage;
             IFolder KursFolder = await rootFolder.CreateFolderAsync("Kurs", CreationCollisionOption.OpenIfExists);
-            IFile kursFile = await KursFolder.CreateFileAsync("kurs.xml", CreationCollisionOption.ReplaceExisting);                  
-            kursFile.WriteAllTextAsync(DateTime.Now+" usd "+hm[29]+" "+hm[30]+" eur " + hm[41] + " " + hm[42]+ " rub " + hm[54] + " " + hm[55]+ " zl " + hm[17] + " " + hm[18]+ " gr " + hm[66] + " " + hm[67]);            
+            IFile kursFile = await KursFolder.CreateFileAsync("kurs.xml", CreationCollisionOption.ReplaceExisting);
+            kursFile.WriteAllTextAsync(DateTime.Now + " usd " + hm[29] + " " + hm[30] + " eur " + hm[41] + " " + hm[42] + " rub " + hm[54] + " " + hm[55] + " zl " + hm[17] + " " + hm[18] + " gr " + hm[66] + " " + hm[67]);
         }
 
         public async Task ReadFileKurs()
@@ -366,12 +368,12 @@ namespace Конвертер
         }
 
         public void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
-        {           
+        {
             try
             {
                 zametki = e.Item as Zametki;
                 ListView st = ((ListView)sender);
-                vm = st.BindingContext as MainViewModel;               
+                vm = st.BindingContext as MainViewModel;
                 vm.HideOrShowProduct(zametki);
             }
             catch (Exception ex)
@@ -386,13 +388,43 @@ namespace Конвертер
             try
             {
                 vm.DeleteZametka();
-                ListViewZametki.ItemsSource = null;
-                ListViewZametki.ItemsSource = vm.mZametki;
+                //ListViewZametki.ItemsSource = null;
+                //ListViewZametki.ItemsSource = vm.mZametki;
             }
-             catch(Exception ex)
+            catch (Exception ex)
             {
                 DisplayAlert("Ошибка", ex.Message, "OK");
             }
+        }
+
+        public void ShowPopup(MainViewModel vm)
+        {
+            PopupNavigation.Instance.PushAsync(new PopupView(vm));      
+        }
+
+        private void ImageButton_addZametka_Clicked(object sender, EventArgs e)
+        {
+            try
+            {             
+                vm = ListViewZametki.BindingContext as MainViewModel;
+                ShowPopup(vm);
+                //create file zametki                 
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ошибка", ex.Message, "OK");
+            }
+        }
+
+        public async Task CreateFileZametka()
+        {
+
+            IFileSystem fileSystem = FileSystem.Current;
+            IFolder rootFolder = fileSystem.LocalStorage;
+            IFolder ZametkaFolder = await rootFolder.CreateFolderAsync("Zametka", CreationCollisionOption.OpenIfExists);
+            IFile zametkaFile = await ZametkaFolder.GetFileAsync("Zametka " + count + ".xml");
+
+
         }
     }
 }

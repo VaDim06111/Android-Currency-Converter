@@ -8,7 +8,7 @@ namespace Конвертер
     public class MainViewModel
     {
         private Zametki _oldZametki;
-        int index;
+        int index;      
         public ObservableCollection<Zametki> mZametki { get; set; }
 
         public MainViewModel()
@@ -17,40 +17,10 @@ namespace Конвертер
             {
                 new Zametki
                 {
-                    Title = "Новая заметка 1",
+                    Title = "Новая заметка",
                     Description = "Описание",
                     IsVisible = false
-                },
-                new Zametki
-                {
-                    Title = "Новая заметка 2",
-                    Description = "Описание",
-                    IsVisible = false
-                },
-                new Zametki
-                {
-                    Title = "Новая заметка 3",
-                    Description = "Описание",
-                    IsVisible = false
-                },
-                new Zametki
-                {
-                    Title = "Новая заметка 4",
-                    Description = "Описание",
-                    IsVisible = false
-                },
-                new Zametki
-                {
-                    Title = "Новая заметка 5",
-                    Description = "Описание",
-                    IsVisible = false
-                },
-                new Zametki
-                {
-                    Title = "Новая заметка 6",
-                    Description = "Описание",
-                    IsVisible = false
-                }
+                }               
             };
 
         }
@@ -92,6 +62,17 @@ namespace Конвертер
         public void DeleteZametka()
         {
             mZametki.RemoveAt(index);
+        }
+        public void AddZametka(string name, string description)
+        {
+            Zametki mZametki_new =
+                new Zametki
+                {
+                    Title = name,
+                    Description = description,
+                    IsVisible = false
+                };          
+            mZametki.Add(mZametki_new);                                 
         }
     }
 }

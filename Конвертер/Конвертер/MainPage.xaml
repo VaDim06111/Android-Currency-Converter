@@ -112,8 +112,12 @@
         <ContentPage.BindingContext>
             <local:MainViewModel/>
         </ContentPage.BindingContext>
-
-        <ListView x:Name="ListViewZametki" ItemsSource="{Binding mZametki}" HasUnevenRows="True" Margin="5,80,5,5" ItemTapped="ListView_ItemTapped" SeparatorVisibility="Default" SeparatorColor="Black" >
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#7B1FA2" Padding="10">
+            <Label x:Name="Label_zametki" Text="Заметки" FontSize="35" TextColor="Black" VerticalOptions="Center"/>
+                <ImageButton x:Name="ImageButton_addZametka" Source="add_button.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Clicked="ImageButton_addZametka_Clicked"/>
+            </StackLayout>
+            <ListView x:Name="ListViewZametki" ItemsSource="{Binding mZametki}" HasUnevenRows="True" Margin="5" ItemTapped="ListView_ItemTapped" SeparatorVisibility="Default" SeparatorColor="Black" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -130,7 +134,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
+        </StackLayout>
     </ContentPage>
 
     <ContentPage Title="Таймер" 

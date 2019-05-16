@@ -629,3 +629,7 @@ E:\Проекты Visual Studio\Конвертер\Конвертер\Конве
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\obj\x86\Debug\FxResources.System.Transactions.Local.SR.resw
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\obj\x86\Debug\FxResources.System.ValueTuple.SR.resw
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\obj\x86\Debug\FxResources.System.Xml.XPath.XmlDocument.SR.resw
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\Rg.Plugins.Popup.UWP.dll
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\Rg.Plugins.Popup.UWP.pdb
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\Rg.Plugins.Popup.dll
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер.UWP\bin\x86\Debug\Rg.Plugins.Popup.pdb

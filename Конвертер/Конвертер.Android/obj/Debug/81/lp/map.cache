@@ -8,6 +8,8 @@ PCLStorage.Abstractions
 PCLStorage
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
+Rg.Plugins.Popup
+Rg.Plugins.Popup.Droid
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -35,3 +37,4 @@ Xamarin.Forms.Xaml
 Конвертер
 netstandard
 System.Resources.ResourceManager
+System.Reflection.Extensions

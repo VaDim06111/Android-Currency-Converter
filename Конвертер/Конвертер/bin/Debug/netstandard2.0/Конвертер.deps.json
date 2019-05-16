@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5cdfeecfaf80379bbdae04422f9bcc2bbd2da22c"
+    "signature": "794a3008d9a3030b0938dbefced42bac62b5a55f"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,6 +12,7 @@
           "HtmlAgilityPack": "1.8.14",
           "NETStandard.Library": "2.0.3",
           "PCLStorage": "1.0.2",
+          "Rg.Plugins.Popup": "1.1.5.188",
           "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xamarin.Forms": "3.4.0.1008975"
@@ -75,6 +76,17 @@
           "lib/net45/PCLStorage.dll": {
             "assemblyVersion": "1.0.2.0",
             "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {
+            "assemblyVersion": "1.1.5.188",
+            "fileVersion": "1.1.5.188"
           }
         }
       },
@@ -739,6 +751,13 @@
       "sha512": "sha512-gj37kg2DqlKADjnoax9wqSLSo9ZeEBRTEqfXg3R+fm2sbgst2B0Xa6TX1sh2ORrj83vk8lzyZ/DGEQx7c2QKPg==",
       "path": "pclstorage/1.0.2",
       "hashPath": "pclstorage.1.0.2.nupkg.sha512"
+    },
+    "Rg.Plugins.Popup/1.1.5.188": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3z5Q6Bdvhi8J2e5Cj0lEQ3rseZXXYTCFd3FjWjDlRbBnJ2vtNPRui5DE8bwWjA2PiDyK+GNj/bhvy+enEzISBA==",
+      "path": "rg.plugins.popup/1.1.5.188",
+      "hashPath": "rg.plugins.popup.1.1.5.188.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

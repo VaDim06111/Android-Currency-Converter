@@ -8,7 +8,6 @@ E:\Проекты Visual Studio\Конвертер\Конвертер\Конве
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\Конвертер.pdb
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\XamlC.stamp
 E:\Проекты Visual Studio\Backup\Конвертер\Конвертер\Конвертер\bin\Debug\netstandard2.0\Конвертер.deps.json
 E:\Проекты Visual Studio\Backup\Конвертер\Конвертер\Конвертер\bin\Debug\netstandard2.0\Конвертер.dll
 E:\Проекты Visual Studio\Backup\Конвертер\Конвертер\Конвертер\bin\Debug\netstandard2.0\Конвертер.pdb
@@ -38,3 +37,5 @@ E:\Проекты Visual Studio\Конвертер\Конвертер\Конве
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\Views\Zametki.xaml.g.cs
 E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\Конвертер.csprojAssemblyReference.cache
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\PopupView.xaml.g.cs
+E:\Проекты Visual Studio\Конвертер\Конвертер\Конвертер\obj\Debug\netstandard2.0\XamlC.stamp

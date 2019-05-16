@@ -154,6 +154,9 @@
     <PackageReference Include="PCLStorage">
       <Version>1.0.2</Version>
     </PackageReference>
+    <PackageReference Include="Rg.Plugins.Popup">
+      <Version>1.1.5.188</Version>
+    </PackageReference>
     <PackageReference Include="ThriveGmbH.BottomNavigationBar.XF">
       <Version>1.0.2</Version>
     </PackageReference>
