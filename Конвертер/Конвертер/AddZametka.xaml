@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Конвертер.AddZametka">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#7B1FA2" Padding="10">
+                <Label Text="Заметка" FontSize="35" TextColor="Black" VerticalOptions="Center"/>
+                <Label Text="Дата" FontSize="35" TextColor="Black" VerticalOptions="Center"/>
+                <ImageButton x:Name="ButtonNewField" Source="add_button.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10">
+                <Label Text="Название" FontSize="25" WidthRequest="170" TextColor="Black" VerticalOptions="Center"/>
+                <Label Text="Количество" FontSize="23" WidthRequest="170" TextColor="Black" VerticalOptions="Center"/>
+                <Label Text="Цена" FontSize="25" WidthRequest="80" TextColor="Black" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10">
+                <Editor x:Name="Field1Name" Text="Товар 1" FontSize="30" WidthRequest="180" TextColor="Black" VerticalOptions="Center"/>
+                <Editor x:Name="Field1Count" Text="1" FontSize="30" WidthRequest="70" TextColor="Black" VerticalOptions="Center"/>
+                <Editor x:Name="Field1Cost" Text="10" FontSize="30" WidthRequest="85" TextColor="Black" VerticalOptions="Center"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

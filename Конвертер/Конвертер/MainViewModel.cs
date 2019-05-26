@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
+using PCLStorage;
 
 namespace Конвертер
 {
     public class MainViewModel
     {
         private Zametki _oldZametki;
-        int index;      
+        int index;             
+
         public ObservableCollection<Zametki> mZametki { get; set; }
 
         public MainViewModel()
@@ -74,5 +77,14 @@ namespace Конвертер
                 };          
             mZametki.Add(mZametki_new);                                 
         }
+        public async Task ReadFileZametka()
+        {
+            IFileSystem fileSystem = FileSystem.Current;
+            IFolder rootFolder = fileSystem.LocalStorage;
+            IFolder zametkaFolder = await rootFolder.CreateFolderAsync("Zametki", CreationCollisionOption.OpenIfExists);
+            IFile zametkaFile = await zametkaFolder.GetFileAsync(mZametki[index].Title+".xml");
+
+        }
+        
     }
 }

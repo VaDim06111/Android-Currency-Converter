@@ -1,4 +1,5 @@
-﻿using Rg.Plugins.Popup.Pages;
+﻿using PCLStorage;
+using Rg.Plugins.Popup.Pages;
 using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
@@ -29,7 +30,15 @@ namespace Конвертер
             name = Entry_name.Text;
             description = Entry_description.Text;
             PopupNavigation.Instance.PopAsync(true);
-            viewmodel.AddZametka(name,description);          
+            viewmodel.AddZametka(name,description);
+            CreateFileZametka(name);
+        }
+        public async void CreateFileZametka(string name)
+        {
+            IFileSystem fileSystem = FileSystem.Current;
+            IFolder rootFolder = fileSystem.LocalStorage;
+            IFolder ZametkaFolder = await rootFolder.CreateFolderAsync("Zametki", CreationCollisionOption.OpenIfExists);
+            IFile zametkaFile = await ZametkaFolder.GetFileAsync(name + ".xml");
         }
     }
 }

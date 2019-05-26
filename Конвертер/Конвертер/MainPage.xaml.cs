@@ -29,7 +29,7 @@ namespace Конвертер
         {
 
             InitializeComponent();
-
+            NavigationPage.SetHasNavigationBar(this, false);
             if (CheckConnection())
             {
                 var web = new HtmlWeb
@@ -387,9 +387,7 @@ namespace Конвертер
         {
             try
             {
-                vm.DeleteZametka();
-                //ListViewZametki.ItemsSource = null;
-                //ListViewZametki.ItemsSource = vm.mZametki;
+                vm.DeleteZametka();   
             }
             catch (Exception ex)
             {
@@ -408,23 +406,21 @@ namespace Конвертер
             {             
                 vm = ListViewZametki.BindingContext as MainViewModel;
                 ShowPopup(vm);
-                //create file zametki                 
+                                
             }
             catch (Exception ex)
             {
                 DisplayAlert("Ошибка", ex.Message, "OK");
             }
+        }      
+        private void Button_List_Prosmotr_Clicked(object sender, EventArgs e)
+        {
+          
         }
 
-        public async Task CreateFileZametka()
+        private async void Button_List_Change_Clicked(object sender, EventArgs e)
         {
-
-            IFileSystem fileSystem = FileSystem.Current;
-            IFolder rootFolder = fileSystem.LocalStorage;
-            IFolder ZametkaFolder = await rootFolder.CreateFolderAsync("Zametka", CreationCollisionOption.OpenIfExists);
-            IFile zametkaFile = await ZametkaFolder.GetFileAsync("Zametka " + count + ".xml");
-
-
+            await Navigation.PushAsync(new AddZametka());
         }
     }
 }
