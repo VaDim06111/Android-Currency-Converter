@@ -18,53 +18,49 @@ namespace Конвертер
         {
             mZametki = new ObservableCollection<Zametki>
             {
-                new Zametki
-                {
-                    Title = "Новая заметка",
-                    Description = "Описание",
-                    IsVisible = false
-                }               
+                        
             };
 
         }
 
         public void HideOrShowProduct(Zametki zametki)
-        {
-
-            if (_oldZametki == zametki)
-            {
-                // Click twice on the same item will hide it
-                zametki.IsVisible = !zametki.IsVisible;
-                UpdateZametki(zametki);
-            }
-            else
-            {
-                index = mZametki.IndexOf(_oldZametki);
-                if (_oldZametki != null && index !=-1)
+        {          
+                if (_oldZametki == zametki)
                 {
-                    // hide previous selected item
-                    _oldZametki.IsVisible = false;
-                    UpdateZametki(_oldZametki);
+                    // Click twice on the same item will hide it
+                    zametki.IsVisible = !zametki.IsVisible;
+                    UpdateZametki(zametki);
                 }
-                              
+                else
+                {
+                    index = mZametki.IndexOf(_oldZametki);
+                    if (_oldZametki != null && index != -1)
+                    {
+                        // hide previous selected item
+                        _oldZametki.IsVisible = false;
+                        UpdateZametki(_oldZametki);
+                    }
+
                     //show selected item
                     zametki.IsVisible = true;
                     UpdateZametki(zametki);
-                
-            }
 
-            _oldZametki = zametki;
+                }
 
+                _oldZametki = zametki;
+                    
         }
         public void UpdateZametki(Zametki zametki)
-        {
-            index = mZametki.IndexOf(zametki);
-            mZametki.Remove(zametki);
-            mZametki.Insert(index, zametki);
+        {         
+                index = mZametki.IndexOf(zametki);
+                mZametki.Remove(zametki);
+                mZametki.Insert(index, zametki);                     
+           
         }
         public void DeleteZametka()
-        {
-            mZametki.RemoveAt(index);
+        {         
+            DeleteFile(mZametki[index].Title);
+            mZametki.RemoveAt(index);                      
         }
         public void AddZametka(string name, string description)
         {
@@ -74,17 +70,26 @@ namespace Конвертер
                     Title = name,
                     Description = description,
                     IsVisible = false
-                };          
-            mZametki.Add(mZametki_new);                                 
+                };
+            mZametki.Add(mZametki_new);
         }
         public async Task ReadFileZametka()
         {
             IFileSystem fileSystem = FileSystem.Current;
             IFolder rootFolder = fileSystem.LocalStorage;
             IFolder zametkaFolder = await rootFolder.CreateFolderAsync("Zametki", CreationCollisionOption.OpenIfExists);
-            IFile zametkaFile = await zametkaFolder.GetFileAsync(mZametki[index].Title+".xml");
-
+            IFile zametkaFile = await zametkaFolder.GetFileAsync(mZametki[index].Title+".xml");          
+            string strZametka = await zametkaFile.ReadAllTextAsync();
+            string[] mas_zametka = strZametka.Split(new char[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
         }
-        
+        public async void DeleteFile(string _name)
+        {          
+                IFileSystem fileSystem = FileSystem.Current;
+                IFolder rootFolder = fileSystem.LocalStorage;
+                IFolder ZametkaFolder = await rootFolder.CreateFolderAsync("Zametki", CreationCollisionOption.OpenIfExists);
+                IFile zametkaFile = await ZametkaFolder.GetFileAsync(_name + ".xml");
+                await zametkaFile.DeleteAsync();      
+           
+        }
     }
 }

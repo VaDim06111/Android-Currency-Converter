@@ -25,6 +25,7 @@ namespace Конвертер
         Zametki zametki;
         MainViewModel vm;
         int count = 1;
+        string Title = "";
         public MainPage()
         {
 
@@ -375,6 +376,7 @@ namespace Конвертер
                 ListView st = ((ListView)sender);
                 vm = st.BindingContext as MainViewModel;
                 vm.HideOrShowProduct(zametki);
+                Title = zametki.Title;
             }
             catch (Exception ex)
             {
@@ -386,14 +388,15 @@ namespace Конвертер
         private void Button_List_Delete_Clicked(object sender, EventArgs e)
         {
             try
-            {
-                vm.DeleteZametka();   
+            {              
+                vm.DeleteZametka();               
             }
             catch (Exception ex)
             {
                 DisplayAlert("Ошибка", ex.Message, "OK");
             }
         }
+       
 
         public void ShowPopup(MainViewModel vm)
         {
@@ -413,14 +416,14 @@ namespace Конвертер
                 DisplayAlert("Ошибка", ex.Message, "OK");
             }
         }      
-        private void Button_List_Prosmotr_Clicked(object sender, EventArgs e)
+        private async void Button_List_Prosmotr_Clicked(object sender, EventArgs e)
         {
-          
+            await Navigation.PushAsync(new ProsmotrZametka(Title));
         }
 
         private async void Button_List_Change_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AddZametka());
+            await Navigation.PushAsync(new AddZametka(Title,DateTime.Now.ToShortDateString()));
         }
     }
 }

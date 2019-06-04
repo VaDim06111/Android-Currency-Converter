@@ -38,7 +38,8 @@ namespace Конвертер
             IFileSystem fileSystem = FileSystem.Current;
             IFolder rootFolder = fileSystem.LocalStorage;
             IFolder ZametkaFolder = await rootFolder.CreateFolderAsync("Zametki", CreationCollisionOption.OpenIfExists);
-            IFile zametkaFile = await ZametkaFolder.GetFileAsync(name + ".xml");
+            IFile zametkaFile = await ZametkaFolder.CreateFileAsync(name + ".xml", CreationCollisionOption.ReplaceExisting);           
+            await zametkaFile.WriteAllTextAsync(DateTime.Now.ToShortDateString() + "|");
         }
     }
 }

@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Конвертер.AddZametka">
-    <ContentPage.Content>
+             x:Class="Конвертер.ProsmotrZametka">
+  <ContentPage.Content>
         <StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#7B1FA2" Padding="10">
                 <Label x:Name="LabelName" Text="Заметка" WidthRequest="200" FontSize="20" TextColor="Black" VerticalOptions="Center"/>
                 <Label Text="Дата" x:Name="LabelDate" WidthRequest="120" FontSize="20" TextColor="Black" VerticalOptions="Center"/>
-                <ImageButton x:Name="ButtonNewField" Source="add_button.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Clicked="ButtonNewField_Clicked"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10">
                 <Label Text="Название" FontSize="25" WidthRequest="170" TextColor="Black" VerticalOptions="Center"/>
@@ -17,16 +16,13 @@
             <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand" >
                 <StackLayout x:Name="ZametkiStackLayout">
                     <!--<StackLayout x:Name="ZametkaLayout" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10">
-                        <Editor x:Name="Field1Name" Text="Товар 1" FontSize="30" WidthRequest="180" TextColor="Black" VerticalOptions="Center"/>
-                        <Editor x:Name="Field1Count" Text="1" FontSize="30" WidthRequest="70" TextColor="Black" VerticalOptions="Center"/>
-                        <Editor x:Name="Field1Cost" Text="10" FontSize="30" WidthRequest="85" TextColor="Black" VerticalOptions="Center"/>
+                        <Label x:Name="Field1Name" Text="Товар 1" FontSize="30" WidthRequest="180" TextColor="Black" VerticalOptions="Center"/>
+                        <Label x:Name="Field1Count" Text="1" FontSize="30" WidthRequest="70" TextColor="Black" VerticalOptions="Center"/>
+                        <Label x:Name="Field1Cost" Text="10" FontSize="30" WidthRequest="85" TextColor="Black" VerticalOptions="Center"/>
                     </StackLayout>-->
 
                 </StackLayout>
             </ScrollView>
-            <StackLayout  VerticalOptions="EndAndExpand" Padding="20,10,20,20">
-                <Button Text="Изменить" x:Name="ButtonSaveZametka" TextColor="Black"  FontSize="18" Clicked="ButtonSaveZametka_Clicked"  />
-            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
