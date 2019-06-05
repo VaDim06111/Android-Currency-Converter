@@ -25,6 +25,10 @@
             <Label Text="Введите описание"/>
             <Entry x:Name="Entry_description" FontSize="30" />
         </StackLayout>
+        <StackLayout >
+            <Label Text="Выберите валюту"/>
+            <Picker x:Name="Picker_valuta" FontSize="30" />
+        </StackLayout>
         <Button x:Name="ButtonPopup_add" BackgroundColor="DodgerBlue" FontSize="30" Text="Добавить" TextColor="White" Clicked="ButtonPopup_add_Clicked"/>
     </StackLayout>
 </pages:PopupPage>

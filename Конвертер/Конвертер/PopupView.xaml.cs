@@ -16,12 +16,19 @@ namespace Конвертер
     public partial class PopupView : PopupPage
     {
         public string name { get; set; }
-        public string description { get; set; }
+        public string description { get; set; } 
        public MainViewModel viewmodel { get; set; }
         public PopupView(MainViewModel vm)
         {
             InitializeComponent();
-            viewmodel = vm;
+            viewmodel = vm;        
+            Picker_valuta.Items.Add("USD");
+            Picker_valuta.Items.Add("EUR");
+            Picker_valuta.Items.Add("BYN");
+            Picker_valuta.Items.Add("RUB");
+            Picker_valuta.Items.Add("UAH");
+            Picker_valuta.Items.Add("ZL");
+
         }
 
         private void ButtonPopup_add_Clicked(object sender, EventArgs e)
@@ -39,7 +46,7 @@ namespace Конвертер
             IFolder rootFolder = fileSystem.LocalStorage;
             IFolder ZametkaFolder = await rootFolder.CreateFolderAsync("Zametki", CreationCollisionOption.OpenIfExists);
             IFile zametkaFile = await ZametkaFolder.CreateFileAsync(name + ".xml", CreationCollisionOption.ReplaceExisting);           
-            await zametkaFile.WriteAllTextAsync(DateTime.Now.ToShortDateString() + "|");
+            await zametkaFile.WriteAllTextAsync(DateTime.Now.ToShortDateString() + "|" + Picker_valuta.SelectedItem + "|");
         }
     }
 }

@@ -418,7 +418,7 @@ namespace Конвертер
         }      
         private async void Button_List_Prosmotr_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ProsmotrZametka(Title));
+            await Navigation.PushAsync(new ProsmotrZametka(Title,hm[30], hm[42], hm[55], hm[18], hm[67]));
         }
 
         private async void Button_List_Change_Clicked(object sender, EventArgs e)

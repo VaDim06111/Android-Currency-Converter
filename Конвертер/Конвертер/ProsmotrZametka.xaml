@@ -9,9 +9,9 @@
                 <Label Text="Дата" x:Name="LabelDate" WidthRequest="120" FontSize="20" TextColor="Black" VerticalOptions="Center"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10">
-                <Label Text="Название" FontSize="25" WidthRequest="170" TextColor="Black" VerticalOptions="Center"/>
-                <Label Text="Количество" FontSize="23" WidthRequest="170" TextColor="Black" VerticalOptions="Center"/>
-                <Label Text="Цена" FontSize="25" WidthRequest="80" TextColor="Black" VerticalOptions="Center"/>
+                <Label Text="Название" FontSize="25" WidthRequest="160" TextColor="Black" VerticalOptions="Center"/>
+                <Label Text="Количество" FontSize="23" WidthRequest="180" TextColor="Black" VerticalOptions="Center"/>
+                <Picker x:Name="PickerCost" FontSize="25" WidthRequest="80" TextColor="Black" VerticalOptions="Center" SelectedIndexChanged="PickerCost_SelectedIndexChanged"/>
             </StackLayout>
             <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand" >
                 <StackLayout x:Name="ZametkiStackLayout">

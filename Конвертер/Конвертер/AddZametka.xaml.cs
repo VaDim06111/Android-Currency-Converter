@@ -15,6 +15,7 @@ namespace Конвертер
     {
         public int count = 1;
         public int mascount = 0;
+        public string TypeValue = null;
         string[] masIdName = new string[20];
         string[] masIdCount = new string[20];
         string[] masIdCost = new string[20];
@@ -79,7 +80,7 @@ namespace Конвертер
                 var name = (layout.Children.Where(y => y.Id.ToString() == masIdName[i]).FirstOrDefault() as Editor).Text;
                 var count = (layout.Children.Where(y => y.Id.ToString() == masIdCount[i]).FirstOrDefault() as Editor).Text;
                 var cost = (layout.Children.Where(y => y.Id.ToString() == masIdCost[i]).FirstOrDefault() as Editor).Text;
-                mas[i] ="|"+DateTime.Now.ToShortDateString() + "|" + name + "|" + count + "|" + cost+"|";               
+                mas[i] ="|"+DateTime.Now.ToShortDateString() + "|" +TypeValue+ "|"  + name + "|" + count + "|" + cost+"|";               
             }
             GetFileZametka(mas);
             
@@ -109,10 +110,12 @@ namespace Конвертер
             IFile zametkaFile = await ZametkaFolder.GetFileAsync(LabelName.Text + ".xml");
             txtfile = await zametkaFile.ReadAllTextAsync();
             mas = txtfile.Split(new char[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
+            TypeValue = mas[1];
             LabelDate.Text = mas[0];
+            LabelCost.Text += $", {TypeValue}";
             if (mas !=null)
             {
-                for (int i = 1; i < mas.Length; i += 4)
+                for (int i = 2; i < mas.Length; i += 5)
                 {
                     CreateNewFieldFromFile(mas[i], mas[i + 1], mas[i + 2]);
                 }
@@ -120,9 +123,7 @@ namespace Конвертер
             else
             {
                 CreateNewField();
-            }
-            
-            
+            }         
         }
     }
 

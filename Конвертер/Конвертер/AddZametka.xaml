@@ -10,9 +10,9 @@
                 <ImageButton x:Name="ButtonNewField" Source="add_button.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Clicked="ButtonNewField_Clicked"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10">
-                <Label Text="Название" FontSize="25" WidthRequest="170" TextColor="Black" VerticalOptions="Center"/>
-                <Label Text="Количество" FontSize="23" WidthRequest="170" TextColor="Black" VerticalOptions="Center"/>
-                <Label Text="Цена" FontSize="25" WidthRequest="80" TextColor="Black" VerticalOptions="Center"/>
+                <Label Text="Название" FontSize="20" WidthRequest="150" TextColor="Black" VerticalOptions="Center"/>
+                <Label Text="Количество" FontSize="20" WidthRequest="170" TextColor="Black" VerticalOptions="Center"/>
+                <Label x:Name="LabelCost" Text="Цена" FontSize="20" WidthRequest="130" TextColor="Black" VerticalOptions="Center"/>
             </StackLayout>
             <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand" >
                 <StackLayout x:Name="ZametkiStackLayout">
