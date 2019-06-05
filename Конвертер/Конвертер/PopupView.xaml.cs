@@ -38,7 +38,8 @@ namespace Конвертер
             description = Entry_description.Text;
             PopupNavigation.Instance.PopAsync(true);
             viewmodel.AddZametka(name,description);
-            CreateFileZametka(name);
+            SaveListView();
+            CreateFileZametka(name);           
         }
         public async void CreateFileZametka(string name)
         {
@@ -47,6 +48,30 @@ namespace Конвертер
             IFolder ZametkaFolder = await rootFolder.CreateFolderAsync("Zametki", CreationCollisionOption.OpenIfExists);
             IFile zametkaFile = await ZametkaFolder.CreateFileAsync(name + ".xml", CreationCollisionOption.ReplaceExisting);           
             await zametkaFile.WriteAllTextAsync(DateTime.Now.ToShortDateString() + "|" + Picker_valuta.SelectedItem + "|");
+        }
+        public async void SaveListView()
+        {
+            try
+            {
+                string txt = "";
+                IFileSystem fileSystem = FileSystem.Current;
+                IFolder rootFolder = fileSystem.LocalStorage;
+                IFolder ListFolder = await rootFolder.CreateFolderAsync("ListView", CreationCollisionOption.OpenIfExists);
+                IFile listFile = await ListFolder.CreateFileAsync("list.xml", CreationCollisionOption.ReplaceExisting);               
+                foreach (var item in viewmodel.mZametki)
+                {
+                    if (item.Description==null)
+                    {
+                        item.Description = "";
+                    }
+                    txt += item.Title + "|" + item.Description + "|" + item.IsVisible+"|";
+                }
+                if (txt != "")
+                    await listFile.WriteAllTextAsync(txt);
+            }
+            catch (Exception)
+            {
+            }
         }
     }
 }

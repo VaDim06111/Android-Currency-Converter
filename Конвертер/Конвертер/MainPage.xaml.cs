@@ -24,13 +24,13 @@ namespace Конвертер
         string[] hm = new string[105];
         Zametki zametki;
         MainViewModel vm;
+        
         int count = 1;
         string Title = "";
         public MainPage()
         {
-
-            InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+            InitializeComponent();            
+            NavigationPage.SetHasNavigationBar(this, false);            
             if (CheckConnection())
             {
                 var web = new HtmlWeb
@@ -69,10 +69,11 @@ namespace Конвертер
                 hm[18] = hm[18].Remove(hm[18].Length - 1, 1).Replace(".", ",");
                 hm[66] = hm[66].Remove(hm[66].Length - 1, 1).Replace(".", ",");
                 hm[67] = hm[67].Remove(hm[67].Length - 1, 1).Replace(".", ",");
-                Create_file();
+                Create_file();                
             }
             else
                 ReadFileKurs();
+            
         }
 
         // обработка изменения состояния подключения
@@ -344,7 +345,7 @@ namespace Конвертер
             IFolder rootFolder = fileSystem.LocalStorage;
             IFolder KursFolder = await rootFolder.CreateFolderAsync("Kurs", CreationCollisionOption.OpenIfExists);
             IFile kursFile = await KursFolder.CreateFileAsync("kurs.xml", CreationCollisionOption.ReplaceExisting);
-            kursFile.WriteAllTextAsync(DateTime.Now + " usd " + hm[29] + " " + hm[30] + " eur " + hm[41] + " " + hm[42] + " rub " + hm[54] + " " + hm[55] + " zl " + hm[17] + " " + hm[18] + " gr " + hm[66] + " " + hm[67]);
+            await kursFile.WriteAllTextAsync(DateTime.Now + " usd " + hm[29] + " " + hm[30] + " eur " + hm[41] + " " + hm[42] + " rub " + hm[54] + " " + hm[55] + " zl " + hm[17] + " " + hm[18] + " gr " + hm[66] + " " + hm[67]);
         }
 
         public async Task ReadFileKurs()
@@ -389,7 +390,8 @@ namespace Конвертер
         {
             try
             {              
-                vm.DeleteZametka();               
+                vm.DeleteZametka();
+                SaveListView();
             }
             catch (Exception ex)
             {
@@ -408,8 +410,8 @@ namespace Конвертер
             try
             {             
                 vm = ListViewZametki.BindingContext as MainViewModel;
-                ShowPopup(vm);
-                                
+                ShowPopup(vm);               
+
             }
             catch (Exception ex)
             {
@@ -418,13 +420,52 @@ namespace Конвертер
         }      
         private async void Button_List_Prosmotr_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ProsmotrZametka(Title,hm[30], hm[42], hm[55], hm[18], hm[67]));
+            try
+            {
+                await Navigation.PushAsync(new ProsmotrZametka(Title, hm[30], hm[42], hm[55], hm[18], hm[67]));
+            }
+            catch(Exception ex)
+            {
+              await  DisplayAlert("Ошибка", ex.Message, "OK");
+            }
         }
 
         private async void Button_List_Change_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AddZametka(Title,DateTime.Now.ToShortDateString()));
+            try
+            {
+                await Navigation.PushAsync(new AddZametka(Title, DateTime.Now.ToShortDateString()));
+            }
+            catch(Exception ex)
+            {
+                await DisplayAlert("Ошибка", ex.Message, "OK");
+            }
         }
+        public async void SaveListView()
+        {
+            try
+            {
+                string txt = "";
+                IFileSystem fileSystem = FileSystem.Current;
+                IFolder rootFolder = fileSystem.LocalStorage;
+                IFolder ListFolder = await rootFolder.CreateFolderAsync("ListView", CreationCollisionOption.OpenIfExists);
+                IFile listFile = await ListFolder.CreateFileAsync("list.xml", CreationCollisionOption.ReplaceExisting);
+                foreach (var item in vm.mZametki)
+                {
+                    if (item.Description == null)
+                    {
+                        item.Description = "";
+                    }
+                    txt += item.Title + "|" + item.Description + "|" + item.IsVisible + "|";
+                }
+                if(txt !="")
+                await listFile.WriteAllTextAsync(txt);
+            }
+            catch(Exception)
+            {
+            }
+        }
+
     }
 }
 
