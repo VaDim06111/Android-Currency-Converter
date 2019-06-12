@@ -7,7 +7,7 @@
 
     <ContentPage Title="Конвертер" 
                  Icon="konverter.png"
-                 BackgroundColor="#00BFFF">
+                 BackgroundColor="#87CEEB">
 
         <Grid RowSpacing="5">
             <Grid.RowDefinitions>
@@ -53,8 +53,8 @@
     <ContentPage Title="Курс валют"
                  x:Name="Kurs_valut"
                  Icon="kurs.png"
-                 xf:BottomBarPageExtensions.TabColor="#32CD32" 
-                 BackgroundColor="#7CFC00"
+                 xf:BottomBarPageExtensions.TabColor="#228B22" 
+                 BackgroundColor="#98FB98"
                  Appearing="Kurs_valut_Appearing">
 
         <Grid RowSpacing="5">
@@ -76,7 +76,7 @@
             </Grid.ColumnDefinitions>
 
 
-            <Label Text="Курс валют" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.ColumnSpan="3"  BackgroundColor="#32CD32"/>
+            <Label Text="Курс валют" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.ColumnSpan="3"  BackgroundColor="#228B22"/>
 
             <Label Text="Покупка" TextColor="DimGray" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
             <Label Text="Продажа" TextColor="DimGray" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="2"/>
@@ -100,47 +100,47 @@
             <Label Text="100 Гривен, ₴" TextColor="Black" FontAttributes="Bold" Grid.Column="0" Grid.Row="6" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
             <Editor Grid.Row="6" Grid.Column="1" FontSize="35" InputTransparent="True" x:Name="Edit_GR_buy"/>
             <Editor Grid.Row="6" Grid.Column="2" FontSize="35" InputTransparent="True" x:Name="Edit_GR_send" />
-            <ImageButton x:Name="ImageButton_update" Source="update1.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="#32CD32" Clicked="Button_Clicked" Pressed="ImageButton_update_Pressed" ></ImageButton>
+            <ImageButton x:Name="ImageButton_update" Source="update1.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="#228B22" Clicked="Button_Clicked" Pressed="ImageButton_update_Pressed" ></ImageButton>
 
         </Grid>
     </ContentPage>
 
     <ContentPage Title="Заметки" 
                  Icon="zametka.png"
-                 BackgroundColor="#7B68EE"
+                 BackgroundColor="#9370DB"
                  xf:BottomBarPageExtensions.TabColor="#7B1FA2">
         <ContentPage.BindingContext>
             <local:MainViewModel/>
         </ContentPage.BindingContext>
         <StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#7B1FA2" Padding="10">
-            <Label x:Name="Label_zametki" Text="Заметки" FontSize="35" TextColor="Black" VerticalOptions="Center"/>
+                <Label x:Name="Label_zametki" Text="Заметки" FontSize="35" TextColor="Black" VerticalOptions="Center"/>
                 <ImageButton x:Name="ImageButton_addZametka" Source="add_button.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Clicked="ImageButton_addZametka_Clicked"/>
             </StackLayout>
             <ListView x:Name="ListViewZametki" ItemsSource="{Binding mZametki}" HasUnevenRows="True" Margin="5" ItemTapped="ListView_ItemTapped" SeparatorVisibility="Default" SeparatorColor="Black" >
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Padding="10">
-                            <Label Text="{Binding Title}" FontSize="30" TextColor="Black"/>
-                            <Label Text="{Binding Description}" FontSize="20" TextColor="Black"/>
-                            <StackLayout x:Name="ButtonsStackLayout" IsVisible="{Binding IsVisible}" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                                <Button Text="Просмотр" x:Name="Button_List_Prosmotr" BackgroundColor="DarkGreen" TextColor="White" WidthRequest="115"  FontSize="16" Clicked="Button_List_Prosmotr_Clicked"/>
-                                <Button Text="Изменить" x:Name="Button_List_Change" BackgroundColor="DodgerBlue" TextColor="White" WidthRequest="110"  FontSize="16" Clicked="Button_List_Change_Clicked" />
-                                <Button Text="Удалить" x:Name="Button_List_Delete" BackgroundColor="DarkRed" TextColor="White" WidthRequest="100"  FontSize="16" Clicked="Button_List_Delete_Clicked" />
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding Title}" FontSize="30" TextColor="Black"/>
+                                <Label Text="{Binding Description}" FontSize="20" TextColor="Black"/>
+                                <StackLayout x:Name="ButtonsStackLayout" IsVisible="{Binding IsVisible}" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <Button Text="Просмотр" x:Name="Button_List_Prosmotr" BackgroundColor="DarkGreen" TextColor="White" WidthRequest="115"  FontSize="16" Clicked="Button_List_Prosmotr_Clicked"/>
+                                    <Button Text="Изменить" x:Name="Button_List_Change" BackgroundColor="DodgerBlue" TextColor="White" WidthRequest="110"  FontSize="16" Clicked="Button_List_Change_Clicked" />
+                                    <Button Text="Удалить" x:Name="Button_List_Delete" BackgroundColor="DarkRed" TextColor="White" WidthRequest="100"  FontSize="16" Clicked="Button_List_Delete_Clicked" />
+                                </StackLayout>
                             </StackLayout>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage>
 
     <ContentPage Title="Таймер" 
                  Icon="timer1.png"
-                 BackgroundColor="#DC143C"
-                 xf:BottomBarPageExtensions.TabColor="#FF5252">
+                 BackgroundColor="#FF5252"
+                 xf:BottomBarPageExtensions.TabColor="#DC143C">
         <Label Text="Таймер" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
     </ContentPage>
 
@@ -148,7 +148,70 @@
                  Icon="contact.png"
                  BackgroundColor="#FFA500"
                  xf:BottomBarPageExtensions.TabColor="#FF9800">
-        <Label Text="Контакты" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" x:Name="Label1"/>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#FF9800" Padding="10">
+                <Label Text="Контакты" FontSize="35" TextColor="Black" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5">
+                <Label Text="Название" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Адрес" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Телефон" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <ScrollView>
+                <StackLayout Padding="5">
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="БелВЭБ" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. Б. Троицкая, 51" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="205" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Абсолютбанк" FontSize="16" TextColor="Black" WidthRequest="130" />
+                        <Label Text="ул. Ожешко, 14" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="7545" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Альфа-банк" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. К. Маркса, 44" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="198" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Банк ВТБ" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. Антонова, 21" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="8(0152)755222" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Беларусбанк" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. Горького, 91" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="+375152737690" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Беларусбанк" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. БЛК, 34" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="+375152737190" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Беларусбанк" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. Кабяка, 2" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="+375152392332" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Белгазпромбанк" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. Суворова, 135" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="8(0152)606221" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Белинвестбанк" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. Мицкевича, 3" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="8(0152)790240" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Франсабанк" FontSize="16" TextColor="Black" WidthRequest="130"/>
+                        <Label Text="ул. Доминиканская, 10" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                        <Label Text="+375(152)773787" FontSize="14" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
     </ContentPage>
 
 
