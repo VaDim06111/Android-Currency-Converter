@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<xf:BottomBarPage xmlns:xf1="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms" xmlns="http://xamarin.com/schemas/2014/forms"
+<xf:BottomBarPage  xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Конвертер"
              x:Class="Конвертер.MainPage"                
-               xmlns:xf="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms" >
+             xmlns:xf="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms"
+              xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
 
     <ContentPage Title="Конвертер" 
                  Icon="konverter.png"
                  BackgroundColor="#87CEEB">
-
-        <Grid RowSpacing="5">
+        <StackLayout>
+            <Grid RowSpacing="5">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
                 <RowDefinition Height="70" />
@@ -47,7 +48,7 @@
             <Label Text="ZL" TextColor="Black" FontAttributes="Bold" FontSize="35" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
             <Editor x:Name="Editor_ZL" Grid.Row="6" Grid.Column="1" FontSize="35" Grid.ColumnSpan="2" Text="0" TextChanged="Editor_ZL_TextChanged" Focused="Editor_ZL_Focused"/>
         </Grid>
-
+        </StackLayout>
     </ContentPage>
 
     <ContentPage Title="Курс валют"
@@ -137,11 +138,24 @@
         </StackLayout>
     </ContentPage>
 
-    <ContentPage Title="Таймер" 
-                 Icon="timer1.png"
+    <ContentPage Title="Образцы валют" 
+                 Icon="examples.png"
                  BackgroundColor="#FF5252"
                  xf:BottomBarPageExtensions.TabColor="#DC143C">
-        <Label Text="Таймер" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <ContentPage.Content>
+        <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#DC143C" Padding="10">
+                    <Label x:Name="LabelName" Text="Образцы валют" WidthRequest="200" FontSize="20" TextColor="Black" VerticalOptions="Center"/>
+                    <Picker x:Name="PickerCurrency" FontSize="25" WidthRequest="80" TextColor="Black" VerticalOptions="Center" HorizontalOptions="EndAndExpand" SelectedIndexChanged="PickerCurrency_SelectedIndexChanged" />
+                </StackLayout>
+                <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                <StackLayout x:Name="ImagesCurrencyStackLayout">
+                        <Image x:Name="Image1" />
+                        <Image x:Name="Image2" />
+                    </StackLayout>
+            </ScrollView>
+        </StackLayout>
+        </ContentPage.Content>
     </ContentPage>
 
     <ContentPage Title="Контакты" 

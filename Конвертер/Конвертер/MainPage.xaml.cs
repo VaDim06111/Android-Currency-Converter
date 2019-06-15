@@ -29,7 +29,7 @@ namespace Конвертер
         string Title = "";
         public MainPage()
         {
-            InitializeComponent();            
+            InitializeComponent();          
             NavigationPage.SetHasNavigationBar(this, false);            
             if (CheckConnection())
             {
@@ -39,12 +39,7 @@ namespace Конвертер
                     OverrideEncoding = Encoding.UTF8,
                 };
                 string html1 = "https://myfin.by/currency/pln/grodno";
-                HtmlDocument HD1 = new HtmlDocument();
-                var web1 = new HtmlWeb
-                {
-                    AutoDetectEncoding = false,
-                    OverrideEncoding = Encoding.UTF8,
-                };
+                HtmlDocument HD1 = new HtmlDocument();                
                 HD1 = web.Load(html1);
                 HtmlNodeCollection NoAltElements1 = HD1.DocumentNode.SelectNodes("//div[@class='table-responsive']");
                 if (NoAltElements1 != null)
@@ -58,7 +53,7 @@ namespace Конвертер
                 //41 42 €
                 //54 55 100₽
                 // 17 18 10zl
-                // 66 67 100grivna
+                // 66 67 100grivna              
                 hm[29] = hm[29].Remove(hm[29].Length - 1, 1).Replace(".", ",");
                 hm[30] = hm[30].Remove(hm[30].Length - 1, 1).Replace(".", ",");
                 hm[41] = hm[41].Remove(hm[41].Length - 1, 1).Replace(".", ",");
@@ -73,7 +68,13 @@ namespace Конвертер
             }
             else
                 ReadFileKurs();
-            
+            PickerCurrency.Items.Add("USD");
+            PickerCurrency.Items.Add("EUR");
+            PickerCurrency.Items.Add("BYN");
+            PickerCurrency.Items.Add("RUB");
+            PickerCurrency.Items.Add("UAH");
+            PickerCurrency.Items.Add("ZL");
+            PickerCurrency.SelectedItem = "USD";
         }
 
         // обработка изменения состояния подключения
@@ -466,6 +467,39 @@ namespace Конвертер
             }
         }
 
+        private void PickerCurrency_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (PickerCurrency.SelectedItem.ToString())
+            {
+                case "USD":
+                    Image1.Source = "usd1.jpg";
+                    Image2.Source = "usd.png";                   
+                    break;
+                case "EUR":
+                    Image1.Source = "eur1.jpg";
+                    Image2.Source = "eur.jpg";
+                    break;
+                case "BYN":
+                    Image1.Source = "byn.jpg";
+                    Image2.Source = "";
+                    break;
+                case "RUB":
+                    Image1.Source = "rub1.jpg";
+                    Image2.Source = "rub.jpg";
+                    break;
+                case "UAH":
+                    Image1.Source = "uah1.jpg";
+                    Image2.Source = "uah.jpg";
+                    break;
+                case "ZL":
+                    Image1.Source = "zl1.jpg";
+                    Image2.Source = "zl.jpg";
+                    break;
+                default:
+                    break;
+            }
+            
+        }
     }
 }
 
