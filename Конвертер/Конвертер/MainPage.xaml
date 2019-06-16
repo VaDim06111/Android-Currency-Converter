@@ -152,6 +152,7 @@
                 <StackLayout x:Name="ImagesCurrencyStackLayout">
                         <Image x:Name="Image1" />
                         <Image x:Name="Image2" />
+                        <Image x:Name="Image3" />
                     </StackLayout>
             </ScrollView>
         </StackLayout>

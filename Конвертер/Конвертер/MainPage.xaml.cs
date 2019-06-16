@@ -473,27 +473,33 @@ namespace Конвертер
             {
                 case "USD":
                     Image1.Source = "usd1.jpg";
-                    Image2.Source = "usd.png";                   
+                    Image2.Source = "usd2.png";
+                    Image3.Source = "usd3.png";
                     break;
                 case "EUR":
                     Image1.Source = "eur1.jpg";
-                    Image2.Source = "eur.jpg";
+                    Image2.Source = "eur.png";
+                    Image3.Source = "eur2.png";
                     break;
                 case "BYN":
-                    Image1.Source = "byn.jpg";
-                    Image2.Source = "";
+                    Image1.Source = "byn1.png";
+                    Image2.Source = "byn.png";
+                    Image3.Source = "";
                     break;
                 case "RUB":
                     Image1.Source = "rub1.jpg";
                     Image2.Source = "rub.jpg";
+                    Image3.Source = "";
                     break;
                 case "UAH":
                     Image1.Source = "uah1.jpg";
-                    Image2.Source = "uah.jpg";
+                    Image2.Source = "uah.png";
+                    Image3.Source = "uah2.png";
                     break;
                 case "ZL":
                     Image1.Source = "zl1.jpg";
                     Image2.Source = "zl.jpg";
+                    Image3.Source = "";
                     break;
                 default:
                     break;
